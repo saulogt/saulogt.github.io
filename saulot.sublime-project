@@ -1,0 +1,19 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"Jekyll":
+		{
+            "posts_path": "/Users/saulotauil/Documents/work/saulogt/_posts",
+            "drafts_path": "/Users/saulotauil/Documents/work/saulogt/_drafts",
+			"default_post_syntax": "Markdown",
+
+		}
+	}
+}
