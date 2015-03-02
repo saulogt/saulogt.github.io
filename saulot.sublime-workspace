@@ -1,0 +1,393 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"set",
+				"setMap"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_posts/2015-03-01-i-m-alive.markdown",
+			"settings":
+			{
+				"buffer_size": 254,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nlayout: post\ntitle: How I set up my Jekyll environment\ncategories: []\ntags: []\npublished: True\n---\n\nFirst of all, I dont stop to say that I am amazed about how simple to publish posts using Jekyll + Github.\n\nThe editor: I started using Sublime Text with Jekyll plugin to speed up the process. The plugin is great, but it has a strange configurtion procedures and it sounded a tittle intrusive. Another thing that I found is dificult to setup is the markdown spell checking.\nNow I am considering to test Atom, since I've read this great blog post about it (http://www.exaforge.com/blog-workflow/). The markdown preview looks useful.\n\nThe hosting: It is so easy to publish using Github, that it doesn't make any sense working differently.\n\n\n\n",
+			"file": "_drafts/2015-03-02-how-i-set-up-my-jekyll-envoronment.md",
+			"file_size": 744,
+			"file_write_time": 130697891710000000,
+			"settings":
+			{
+				"buffer_size": 744,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2015-03-02-que-bosta.markdown",
+			"settings":
+			{
+				"buffer_size": 1224,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"jek",
+				"Jekyll: New draft"
+			],
+			[
+				"goo",
+				"Google Spell Check"
+			],
+			[
+				"spell",
+				"Google Spell Check"
+			],
+			[
+				"post",
+				"Jekyll: New post"
+			],
+			[
+				"new",
+				"Jekyll: New draft"
+			],
+			[
+				"draft",
+				"Jekyll: New draft"
+			],
+			[
+				"draf",
+				"Jekyll: New draft"
+			],
+			[
+				"jeky",
+				"Jekyll: New draft"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: sea",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: sear",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control:pack",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/saulotauil/Documents/work/saulogt",
+		"/Users/saulotauil/Documents/work/saulogt/_drafts",
+		"/Users/saulotauil/Documents/work/saulogt/_includes",
+		"/Users/saulotauil/Documents/work/saulogt/_posts"
+	],
+	"file_history":
+	[
+		"/Users/saulotauil/Documents/work/saulogt/saulot.sublime-project",
+		"/Users/saulotauil/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/saulotauil/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/saulotauil/Documents/work/saulogt/_posts/2015-03-02-testeeee.md",
+		"/Users/saulotauil/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/saulotauil/Documents/sites/tst/css/main.scss",
+		"/Users/saulotauil/Documents/sites/saulotest/_site/index.html",
+		"/Users/saulotauil/Documents/sites/saulotest/_sass/_base.scss",
+		"/Users/saulotauil/Documents/DB76700D.asc",
+		"/Users/saulotauil/Desktop/untitled2.html",
+		"/Users/saulotauil/Desktop/untitled.html",
+		"/Users/saulotauil/Documents/work/test-preprocessor/README.md",
+		"/Users/saulotauil/Documents/work/test-preprocessor/package.json",
+		"/Users/saulotauil/Documents/work/test-preprocessor/json_fixtures.js",
+		"/Users/saulotauil/Documents/work/test-preprocessor/index.js",
+		"/Users/saulotauil/Documents/work/m2m-service-api/test/planejamentoTest.js",
+		"/Users/saulotauil/Documents/work/m2m-service-api/test/grupoAreaTest.js",
+		"/Users/saulotauil/Documents/work/m2m-frota-web/app/i18n/pt-br.json",
+		"/Users/saulotauil/Documents/work/testeAngular/e2e-tests/scenarios.js",
+		"/Users/saulotauil/Documents/work/testeAngular/e2e-tests/protractor.conf.js",
+		"/Users/saulotauil/Downloads/telas_area/teste_combodrop/style_model.css",
+		"/Users/saulotauil/Downloads/telas_area/area_telas/css/style_model.css",
+		"/Users/saulotauil/Documents/work/m2m-frota-web/app/bower_components/angular-bootstrap/ui-bootstrap-tpls.js",
+		"/Users/saulotauil/Downloads/telas_area-3/area_telas/3_2_detalhamento.html",
+		"/Users/saulotauil/Downloads/angularjs-google-maps-master/bower.json",
+		"/Users/saulotauil/Downloads/telas_area/area_telas/teste_dropdown.html",
+		"/Users/saulotauil/Downloads/telas_area/area_telas/css/style.css",
+		"/Users/saulotauil/Downloads/telas_area/teste_combodrop/teste_dropdown.html",
+		"/Users/saulotauil/Downloads/telas_area-2/area_telas/css/style_model.css",
+		"/Users/saulotauil/Documents/work/m2m-frota-web/app/scripts/app.js",
+		"/Users/saulotauil/Documents/work/m2m-frota-web/app/scripts/app.js.orig",
+		"/Users/saulotauil/Documents/work/m2m-service-api/app/controllers/planejamentos.js",
+		"/Users/saulotauil/Documents/work/m2m-service-api/app/util/result.js",
+		"/Users/saulotauil/Documents/work/globosgp/globoSgpServerMock/serverMock/sgpserver.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"font",
+			":",
+			"\\\\\"",
+			"\\\"",
+			"id\\\": \\\"?(.*)\"",
+			"\\\\n",
+			"template/popover/popover.html",
+			"popo",
+			";",
+			"\\.",
+			".",
+			",",
+			";",
+			", ",
+			"map",
+			"$select",
+			" ",
+			"\\n",
+			"\"",
+			"restif"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_posts/2015-03-01-i-m-alive.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_drafts/2015-03-02-how-i-set-up-my-jekyll-envoronment.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 744,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_posts/2015-03-02-que-bosta.markdown",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jekyll/Syntaxes/Markdown (Jekyll).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "saulot.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

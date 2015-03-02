@@ -1,10 +1,9 @@
 ---
-layout: 
-title: how I setup my Jekyll envoronment
+layout: post
+title: How I set my Jekyll environment up
 categories: []
 tags: []
 published: True
-
 ---
 
 First of all, I dont stop to say that I am amazed about how simple to publish posts using Jekyll + Github.
