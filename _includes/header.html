@@ -1,13 +1,11 @@
 <section class="page-header">
   <h1 class="project-name"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-  <h2 class="project-tagline">Code, Experience &amp; Joy {{ site.tagline }}</h2>
+  <h2 class="project-tagline">{{ site.tagline }}</h2>
 </section>
 
 <header class="site-header">
 
   <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -19,7 +17,8 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
+        {% assign pages = site.pages | sort:"weight"  %}
+        {% for page in pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
