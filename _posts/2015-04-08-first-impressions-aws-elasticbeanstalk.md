@@ -32,3 +32,7 @@ Too good to be true... Now I don't know how to deploy a new app, and every try e
 Until now I spent about 2 hours.
 
 Next step: Deploy successfully a nodejs application.
+
+Edit 2015-04-13:
+
+I have just discovered that I created my environment in the wrong region. As my goal is to play a little with the new Amazon Machine Learning, I had to delete my environment and recreate it in the region Virginia.
