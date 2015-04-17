@@ -8,7 +8,11 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
 
 /**
  * Basic styling
@@ -35,6 +39,36 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+/*article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+*/
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+
+[hidden],
+template {
+  display: none;
+}
 
 
 /**
@@ -148,6 +182,18 @@ pre {
     }
 }
 
+svg:not(:root) {
+  overflow: hidden;
+}
+
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
 
 
 /**
