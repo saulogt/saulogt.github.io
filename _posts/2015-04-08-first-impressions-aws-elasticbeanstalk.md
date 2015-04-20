@@ -7,7 +7,7 @@ tags: [aws ,elastic beanstalk ,nodejs]
 published: true
 ---
 
-This is my first experience configuring an web application environment on AWS from acquisition to deployment. Having sad that, I decided to write this post as a ship's log, in order to register my impressions, problems and doubts during the process.  
+This is my first experience configuring an web application environment on AWS from acquisition to deployment. As I'll probably make many mistakes, I decided to write this post as a ship's log, in order to register my impressions, problems and doubts during the process.  
 
 ## Just registered to AWS, what now?
 
