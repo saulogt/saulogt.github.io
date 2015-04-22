@@ -24,7 +24,8 @@ I got this screen above and felt sad about the plenty of options that I have now
 At this point, I didn't search for any tutorial on the Web and stuck with the official content, as I was afraid of paying more than I have in Free tier (that is zero $). I understood that I should create a EC2 instance to see things working.
 
 Then I watched this and all my problems were resolved:
-[![Introduction to AWS Elastic Beanstalk](http://img.youtube.com/vi/dvmssHHBnII/0.jpg)](https://www.youtube.com/watch?v=dvmssHHBnII)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dvmssHHBnII?rel=0" frameborder="0" allowfullscreen></iframe>
 
 I created a node application with a mouse click, waited a couple of minutes and I had a sample application running. It created all the instances and configuration needed to run an environment like that.
 Too good to be true... Now I don't know how to deploy a new app, and every try ended up with 502 bad gateway. Yes, I know that I should read the documentation first, but my anxiety don't let me do that now.
@@ -36,7 +37,3 @@ Next step: Deploy successfully a nodejs application.
 Edit 2015-04-13:
 
 I have just discovered that I created my environment in the wrong region. As my goal is to play a little with the new Amazon Machine Learning, I had to delete my environment and recreate it in the region Virginia.
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dvmssHHBnII?rel=0" frameborder="0" allowfullscreen> 
-</iframe>
