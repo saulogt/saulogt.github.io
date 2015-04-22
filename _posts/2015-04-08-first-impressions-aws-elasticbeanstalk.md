@@ -38,4 +38,5 @@ Edit 2015-04-13:
 I have just discovered that I created my environment in the wrong region. As my goal is to play a little with the new Amazon Machine Learning, I had to delete my environment and recreate it in the region Virginia.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dvmssHHBnII?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dvmssHHBnII?rel=0" frameborder="0" allowfullscreen> 
+</iframe>
