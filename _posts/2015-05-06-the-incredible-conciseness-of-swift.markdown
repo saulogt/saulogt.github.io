@@ -8,6 +8,8 @@ tags: [ iOS, swift, apple, programming ]
 
 This post shows how little code is needed to write a closure declaration and call in the new Apple's Swift compared to the old Objective-C
 
+![Swift Logo](/images/swift/swift-og.png)
+
 First of all, I need to show you how it used to be made in the old way.
 It is just a variable declaration of a function type with two doubles as input and another double as output, an attribution and a function call.
 
@@ -88,5 +90,3 @@ var x = myFunction(3,4)
 {% endhighlight %}
 
 Less code, more productivity, fewer bugs. It gives an idea of the language capabilities and the power of type inference in modern languages.
-
-![Swift Logo](/images/swift/swift-og.png)
