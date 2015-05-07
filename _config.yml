@@ -1,6 +1,6 @@
 # Site settings
 title: Saulo's Blog
-tagline: Code, Experience & Joy
+tagline: Code, Experience &amp; Joy
 email: saulogt at gmail dot com
 description:  > # this means to ignore newlines until "baseurl:"
  I hope this site is so useful as it is to me. I write down tech
