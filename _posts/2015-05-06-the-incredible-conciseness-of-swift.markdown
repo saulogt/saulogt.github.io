@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "the incredible conciseness of Swift"
+title:  "The incredible conciseness of Swift"
 date:   2015-05-06 23:24:41
 categories: []
 tags: [ iOS, swift, apple, programming ]
@@ -26,7 +26,6 @@ myFunction = ^(double firstValue, double secondValue) {
 double x = myFunction(3,4);
 
 {% endhighlight %}
-
 
 It is a relatively simple code, right? Lets do the same thing in Swift and evolve to a more concise usage.
 
@@ -88,6 +87,6 @@ var x = myFunction(3,4)
 
 {% endhighlight %}
 
-Less code, more productive, fewer bugs. It gives an idea of the language capabilities and the power of type inference in modern languages.
+Less code, more productivity, fewer bugs. It gives an idea of the language capabilities and the power of type inference in modern languages.
 
-I hope you enjoyed.
+![Swift Logo](/images/swift/swift-og.png)
