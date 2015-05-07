@@ -4,6 +4,7 @@ title:  "The incredible conciseness of Swift"
 date:   2015-05-06 23:24:41
 categories: []
 tags: [ iOS, swift, apple, programming ]
+image: "/images/swift/swift-og.png"
 ---
 
 This post shows how little code is needed to write a closure declaration and call in the new Apple's Swift compared to the old Objective-C
