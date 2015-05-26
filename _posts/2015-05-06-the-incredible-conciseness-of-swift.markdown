@@ -53,7 +53,7 @@ But what is type inference? It is the language capability of guessing the type o
 
 For example:
 ```var b: Boolean = true``` can be written as ```var b = true``` and the variable ```b``` will be a Boolean variable.
-It is really important to notice that is it not a dynamic language, that means ```b``` will always be Boolean.
+It is really important to notice that it is not a dynamic language, that means ```b``` will always be Boolean.
 
 As we already know that, we can take the type from the attribution and the function call:
 
