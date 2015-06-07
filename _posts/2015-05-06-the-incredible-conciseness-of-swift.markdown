@@ -9,15 +9,6 @@ image: "/images/swift/swift-og.png"
 
 This post shows how little code is needed to write a closure declaration and call in the new Apple's Swift compared to the old Objective-C
 
-Alimentos | Preço
---------- | ------
-Arroz     | R$ 10
-Feijão    | R$ 8
-Batata    | R$ 7
-Macarrão  | R$ 8
-
-
-
 ![Swift Logo](/images/swift/swift-og.png)
 
 First of all, I need to show you how it used to be made in the old way.
