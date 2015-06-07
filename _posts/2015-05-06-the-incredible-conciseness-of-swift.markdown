@@ -7,7 +7,13 @@ tags: [ iOS, swift, apple, programming ]
 image: "/images/swift/swift-og.png"
 ---
 
-##This post shows how little code is needed to write a closure declaration and call in the new Apple's Swift compared to the old Objective-C
+This post shows how little code is needed to write a closure declaration and call in the new Apple's Swift compared to the old Objective-C
+
+|eee|rrr|
+--------
+|rrr|rrrrr|
+--------
+
 
 ![Swift Logo](/images/swift/swift-og.png)
 
