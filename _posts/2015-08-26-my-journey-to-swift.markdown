@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "The incredible conciseness of Swift"
-date:   2015-05-06 23:24:41
+title:  "My journay to Swift"
+date:   2015-08-26 10:24:00
 categories: []
 tags: [ iOS, swift, apple, programming ]
 image: "/images/swift/objc-swift.jpeg"
