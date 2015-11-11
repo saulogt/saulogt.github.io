@@ -5,4 +5,4 @@ date:   2015-03-01 23:24:41
 categories: []
 tags: [ First post, Jekyll, Welcome ]
 ---
-This is my first post here. I'm really impressed about what Jekyll can do for this kind of website. More posts will be there soon.
+This is my first post here. I'm really impressed about what Jekyll can do for this kind of website. More posts will be there soon...
