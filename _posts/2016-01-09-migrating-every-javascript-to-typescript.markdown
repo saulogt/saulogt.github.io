@@ -10,11 +10,10 @@ published: true
 
 ![js2ts](/images/2016/js2ts.png)
 
-I admit. I'm not a good JS developer. My background is C++, but I really enjoy learning "new" stuff.
-
 A really talented coworker of mine tried to convince me to use CoffeeScript some time ago, but with no success,
 even showing me the amazing work he was doing with it. See his [GitHub profile](https://github.com/jaykon-w).  
-The problem that I found then, was that the code I had to write was sort of far from plain javascript (IMO).
+The problem that I found then, was that the code I had to write was sort of far from plain javascript (IMO). I admit. I'm not a good JS developer. My background is C++, but I really enjoy learning "new" stuff.
+
 
 For almost an year I abandoned the idea of using anything but vanilla JS.  
 
