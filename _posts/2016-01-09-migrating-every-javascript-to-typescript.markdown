@@ -83,7 +83,7 @@ Here is where typescript really shines.
 
 Consider the following code:
 
-:{% highlight javascript %}:
+{% highlight javascript %}
 function greeter(person) {
     return "Hello, " + person;
 }
