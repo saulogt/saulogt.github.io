@@ -99,12 +99,48 @@ Here you should see an output like this: /Users/myuser/.rbenv/shims/ruby
 In my opinion, the best way to build a good nodejs environment is by installing nvm with brew and node with nvm.
 
 ### Installing nvm:
+```
 $ brew install nvm
+```
 
 Add the following lines to your env.sh
-'''
-\#node 
+
+```
+#node 
 export NVM_DIR="$HOME/.nvm"
 . "$(brew --prefix nvm)/nvm.sh"
-'''
+
+```
+
+## Python
+The same with python... In this case I use pyenv to manage python versions
+
+```
+$ brew install pyenv
+```
+
+add teh following line to env.sh
+
+``` if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+```
+
+Install a version
+
+```
+$ pyenv install 2.7.11
+$ pyenv global 2.7.11
+```
+The second line sets the default python version
+
+## Updating packages
+
+The only tool that doesn't have a direct update method is pip, but it can be solved with the line bellow:
+
+``` $ pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U ``` [Source](http://stackoverflow.com/questions/2720014/upgrading-all-packages-with-pip);
+
+Actually I update everything at the same time like this:
+
+``` pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U; brew update; brew upgrade; brew cleanup; gem update; gem clean;  npm -g update
+``` 
+
 
