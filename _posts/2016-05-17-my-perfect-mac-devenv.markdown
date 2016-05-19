@@ -4,7 +4,7 @@ title:  "My \"perfect\" mac dev environment"
 date:   2016-05-16 10:00:00
 categories: []
 tags: [ javascript, apple, unix, nodejs, programming, ruby, python, zsh ]
-image: "/images/2016/js2ts.png"
+image: "/images/2016/05/term.png"
 published: true
 ---
 
@@ -143,4 +143,5 @@ Actually I update everything at the same time like this:
 ``` pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U; brew update; brew upgrade; brew cleanup; gem update; gem clean;  npm -g update
 ``` 
 
+![Term](/images/2016/05/term.png)
 
