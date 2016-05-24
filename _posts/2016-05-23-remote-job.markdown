@@ -124,7 +124,7 @@ add teh following line to env.sh
 ``` if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 ```
 
-Install a version
+Install a version 
 
 ```
 $ pyenv install 2.7.11
