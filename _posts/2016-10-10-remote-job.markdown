@@ -54,5 +54,4 @@ In this link you can find a lot of information about them: <https://zapier.com/b
 
 Be advised that it is not for everyone. Working remotely is a bit stressful and it add a lot of uncertainty.
 
-
 This article is an ongoing work that I will add more information along the way.
