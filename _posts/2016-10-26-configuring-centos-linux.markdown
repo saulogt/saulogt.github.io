@@ -71,6 +71,7 @@ GATEWAY=192.168.1.1
 Additionally, you have to define the DNS server, since in a static configuration you have to define it.
 
 The keys are DNS1 and DNS2 if a secondary dns is needed. I used the google dns servers and the values are:
+
 ```
 DNS1=8.8.8.8
 DNS2=8.8.4.4
