@@ -43,6 +43,7 @@ Now try pinging again.
 `ping 8.8.8.8`
 
 The result should be something like this:
+
 ```
 PING 8.8.8.8 (8.8.8.8): 56 data bytes
 64 bytes from 8.8.8.8: icmp_seq=0 ttl=58 time=6.708 ms
