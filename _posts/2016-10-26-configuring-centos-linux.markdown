@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Configuring Centos installation from scratch
-date:   2016-10-26 10:00:00
+date:   2016-10-25 10:00:00
 categories: []
 tags: [ linux, centos, devops ]
 image: "/images/2016/centos.jpg"
@@ -49,3 +49,6 @@ PING 8.8.8.8 (8.8.8.8): 56 data bytes
 ```
 
 Type `^+C` to stop pinging.
+
+
+### Fixed IP
