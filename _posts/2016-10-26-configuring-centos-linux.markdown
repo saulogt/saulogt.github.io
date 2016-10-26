@@ -61,6 +61,7 @@ Similarly you have to edit the same file for the DHCP configuration. But now you
 Also add the keys IPADDR, NETMASK and GATEWAY and the respective desired IP address, the network mask and the gateway IP address. Make sure your IP will not conflict with the DHCP range, that in my network is reserved to the values between .2 and .200
 
 The values that I used were:
+
 ```
 IPADDR=192.168.1.201
 NETMASK=255.255.255.0
