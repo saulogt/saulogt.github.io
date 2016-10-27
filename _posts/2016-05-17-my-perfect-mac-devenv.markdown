@@ -21,27 +21,27 @@ killall Finder
 ```
 
 See the result:
-![Showing hidden files](/images/2016/05/hiddenfiles.png) 
+![Showing hidden files](/images/2016/05/hiddenfiles.png)
 
 What do I need now? Hmmm let me see... Ahhh! Homebrew, of course!
 
 I just run the magic command line and... Oops! I have to install the command line development tools or XCode. Have I mentioned that I develop to iOS almost 100% of my working time?
- 
- 
+
+
  ```$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
- 
-![Need to install cmd dev tools](/images/2016/05/cmddevtools.png) 
- 
+
+![Need to install cmd dev tools](/images/2016/05/cmddevtools.png)
+
  Ok. lets do it. Downloading 3.8GB of love.
- 
-![Downloading xcode](/images/2016/05/downloading.png) 
- 
- 
+
+![Downloading xcode](/images/2016/05/downloading.png)
+
+
  After about 4 hours downloading with my lazy connection... I am back.
- 
+
  I really love to work with "Oh My Zsh". It is not directly related to programming, but it saves me a lot of time, without mention thet it is fun.
 
- 
+
 Installing zsh:
 http://sourabhbajaj.com/mac-setup/iTerm/zsh.html
 
@@ -106,7 +106,7 @@ $ brew install nvm
 Add the following lines to your env.sh
 
 ```
-#node 
+#node
 export NVM_DIR="$HOME/.nvm"
 . "$(brew --prefix nvm)/nvm.sh"
 
@@ -141,7 +141,6 @@ The only tool that doesn't have a direct update method is pip, but it can be sol
 Actually I update everything at the same time like this:
 
 ``` pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U; brew update; brew upgrade; brew cleanup; gem update; gem clean;  npm -g update
-``` 
+```
 
 ![Term](/images/2016/05/term.png)
-

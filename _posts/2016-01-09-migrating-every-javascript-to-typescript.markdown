@@ -32,7 +32,7 @@ Only this was responsible find some typos in a development code, as you can see 
 {% highlight javascript %}
 
 var myVariable = false;
-    
+
 function changeState(){
     myVariable = !myvariable
 };
@@ -63,8 +63,8 @@ grunt.loadNpmTasks('grunt-typescript');
         base: {
           src: ['<%= yeoman.app %>/scripts/{,**/}*.ts'],
           options: {
-            module: 'amd', //or commonjs 
-            target: 'es5', //or es3 
+            module: 'amd', //or commonjs
+            target: 'es5', //or es3
             sourceMap: true, // This line allows the bugging through map files
             declaration: true
           }
@@ -112,4 +112,3 @@ Javascript is really nice. Even more now that NodeJS became so popular.
 
 However, a lot of senior developers and managers complain that it is not reliable when dealing with huge systems, many developers, frequent commit and so on.
 Using TypeScriot we can ensure the same minimal check as compiled language such as Java and C++. In fact it is possible to set the typescript transpiler to deny automatic any type and force type definition everywehre.
-
