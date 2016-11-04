@@ -5,6 +5,7 @@ date:   2016-10-27 09:00:00
 categories: []
 tags: [ iOS, XCode, XCTest, Cocoapods, Firebase, Snapshot ]
 image: "/images/2016/10/testbuildfailed.png"
+comments: true
 published: true
 ---
 
