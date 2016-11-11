@@ -4,7 +4,7 @@ title:  "iOS standard UI controls with inline event handler"
 date:   2016-11-10 09:00:00
 categories: []
 tags: [ iOS, Functional, UIKit, Closure]
-#image: "/images/2016/11/testbuildfailed.png"
+image: "/images/2016/11/UIKevent/controls.png"
 comments: true
 published: true
 ---
@@ -18,6 +18,8 @@ I recently became interested in functional programming and the natural way to go
 Then Swift was out, which included the map/filter/reduce, and I was using ReactiveCocoa mainly to handle UI events. So I realized that it was an overkill.
 
 To solve this I created this helper library that allows me to focus on the important part of my apps and quickly add code to UI events.
+
+<https://github.com/saulogt/UIKevent>
 
 See how simple it is to add some code to a UI event:
 
@@ -57,7 +59,3 @@ It currently supports the following controls:
 * UISlider
 * UISwitch
 * UIDatePicker
-
-It is available in cocoapods:
-
-`pod "UIKevent"`
