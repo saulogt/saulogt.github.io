@@ -11,9 +11,9 @@ published: true
 
 
 Simplicity is a key factor in software development. If you are an experienced developer, you kind of feel when something is wrong if many steps are required to perform a simple action.
-You can ask yourself: Do we really need to create a delegate or a method and `addTarget` to simply handle a UI event?
+You may ask yourself: Do I really need to create a delegate or a method and `addTarget` to simply handle a UI event?
 
-I recently became interested in functional programming and the natural way to go functional in Objective-C was using ReactiveCocoa library. I remember the first time when I used it; I got completely amazed about the way it worked and how powerful it was. Additionally, it solved the UI control event problem by just using `rac_signalForControlEvents` and attach a code block. Much better that the delegate and adTarget paraphernalia.
+I recently became interested in functional and reactive programming and the natural way to go functional in Objective-C was using ReactiveCocoa library. I remember the first time when I used it; I got completely amazed about the way it worked and how powerful it was. Additionally, it solved the UI control event problem by just using `rac_signalForControlEvents` and attach a code block. Much better that the delegate and addTarget paraphernalia.
 
 Then Swift was out, which included the map/filter/reduce, and I was using ReactiveCocoa mainly to handle UI events. So I realized that it was an overkill.
 
