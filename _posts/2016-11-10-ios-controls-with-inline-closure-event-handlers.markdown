@@ -52,6 +52,7 @@ segControll.onChange { (obj) in
 ```
 
 It currently supports the following controls:
+
 * UIBarButtonItem
 * UIButton
 * UISegmentedControl
@@ -59,3 +60,4 @@ It currently supports the following controls:
 * UISlider
 * UISwitch
 * UIDatePicker
+
