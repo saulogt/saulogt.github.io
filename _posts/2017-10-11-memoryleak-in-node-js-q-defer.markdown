@@ -3,8 +3,8 @@ layout: post
 title:  "How I solved a memory leak in a NodeJS worker"
 date:   2017-10-11 09:00:00
 categories: []
-tags: [ NodeJS, Q, Promise, Events]
-#image: "/images/2016/11/UIKevent/controls.png"
+tags: [ NodeJS, Q, Promise, EventEmitter]
+image: "/images/2017/10/memoryleak-sol2.png"
 comments: true
 published: true
 ---
