@@ -40,7 +40,7 @@ After taking the snapshots, select the second or beyond, chose `comparison` from
 
 ![Delta](/images/2017/10/Developer_Tools_delta.png)
 
-I did not find something useful `(closures)`, so I started looking into `Arrays` and `system/context`.
+I did not find something useful in `(closures)`, so I started looking into `Arrays` and `system/context`.
 
 There I found many objects being retained by Promises and closures `defer()`. So I started digging into the usage of promises in the code.
 
