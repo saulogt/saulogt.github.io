@@ -14,10 +14,10 @@ My first challenge in my current job was to solve a memory leak in a NodeJS work
 I haven't done this kind of investigation on a NodeJS app before, but I've done that many times in C and C++, so I had an idea what to expect. In fact, it was much easier than I thought it would be.
 
 This is how it was working after I deployed the solution:
-![Result 1](/images/2017/08/memoryleak-sol1.png)
+![Result 1](/images/2017/10/memoryleak-sol1.png)
 
 And this is some days later. Beautiful don't you think?
-![Result 2](/images/2017/08/memoryleak-sol2.png)
+![Result 2](/images/2017/10/memoryleak-sol2.png)
 
 Now let me tell you the story from the beginning. Once upon a time... :)
 
@@ -32,19 +32,19 @@ Debugger listening on ws://127.0.0.1:9229/3e80809c-9ef8-4a2d-b402-5db73c30b7ed
 For help see https://nodejs.org/en/docs/inspector
 ```
 
-![Chrome Dev Tools](/images/2017/08/Developer_Tools_-_Node_js.png)
+![Chrome Dev Tools](/images/2017/10/Developer_Tools_-_Node_js.png)
 
 The secret here is to take two or more snapshots letting the memory leak occur between them and compare the snapshots. And we don't need additional software for that. In my example the snapshots were ~2 minutes apart.
 
 After taking the snapshots, select the second or beyond, chose `comparison` from the dropdown and order the list by the field `Delta`. The biggest deltas should be investigated.
 
-![Delta](/images/2017/08/Developer_Tools_delta.png)
+![Delta](/images/2017/10/Developer_Tools_delta.png)
 
 I did not find something useful `(closures)`, so I started looking into `Arrays` and `system/context`.
 
 There I found many objects being retained by Promises and closures `defer()`. So I started digging into the usage of promises in the code.
 
-![Delta](/images/2017/08/Developer_Tools_closures.png)
+![Delta](/images/2017/10/Developer_Tools_closures.png)
 
 I noticed that the promises were being used as triggers to events and sometimes the promise was discarded without being rejected nor resolved.
 
@@ -104,6 +104,6 @@ function doWork (reason) {
 
 And the most important thing, the memory leak is gone. The snapshot comparisons now displays deltas way nicer.
 
-![New Delta](/images/2017/08/Developer_Tools_newdelta.png)
+![New Delta](/images/2017/10/Developer_Tools_newdelta.png)
 
 After testing and deployed the tweak, the memory consumption chart on Heroku instantly dropped to 10% of the usual level and kept like that, as shown in the first picture of this article.
