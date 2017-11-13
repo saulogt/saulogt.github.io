@@ -15,7 +15,7 @@ What hold you back from working wherever you want?
 I've been planing this for a long time. Gathering information and developing the skills necessary to become a good remote worker. Finally, I did it! (I think)
 I'm a software developer, so you can imagine that it is not difficult for me, it is true. The technology is there to provide mobility and performance. However, we have the human factor, that is unpredictable. We have our fears, other people fears (spouse, boss, parents), we have organization cultural barriers and every kind of excuse we can invent.
 
-There are some points the I consider important to manage in order to have a good experience working remotely:
+There are some points that I consider important to manage in order to have a good experience working remotely:
 
 
 ## Discipline
@@ -52,6 +52,6 @@ In this link, you can find a lot of information about them: <https://zapier.com/
 
 ## Mindset
 
-Be advised that it is not for everyone. Working remotely is a bit stressful and it adds a lot of uncertainty.
+Be advised that it is not for everyone. Working remotely is a bit stressful and it adds a lot of uncertainty. Not to mention the loneliness.
 
 This article is an ongoing work that I will add more information along the way.
