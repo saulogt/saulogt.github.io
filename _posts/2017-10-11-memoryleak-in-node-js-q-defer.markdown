@@ -9,9 +9,9 @@ comments: true
 published: true
 ---
 
-My first challenge in my current job was to solve a memory leak in a NodeJS worker on Heroku that existed for about 2 years. Back then it was not a big deal since Heroku restarts the server every 24 hours and the volume of users was not relevant. The problem is that now it was crashing sometimes twice a day and affecting performance and the user experience.
+My first challenge in my current job was to solve a memory leak in a NodeJS worker on Heroku that existed for about 2 years. Back then it was not a big deal since Heroku restarts the server every 24 hours and the volume of users was not significant. The problem is that it was now crashing sometimes twice a day and affecting performance and the user experience.
 
-I haven't done this kind of investigation on a NodeJS app before, but I've done that many times in C and C++, so I had an idea what to expect. In fact, it was much easier than I thought it would be.
+I hadn't attempted this kind of investigation on a NodeJS app before, but I've done it many times in C and C++, so I had an idea as what to expect. In fact, it was much easier than I thought it would be.
 
 This is how it was working after I deployed the solution:
 ![Result 1](/images/2017/10/memoryleak-sol1.png)
