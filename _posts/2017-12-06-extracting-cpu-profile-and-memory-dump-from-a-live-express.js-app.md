@@ -3,11 +3,10 @@ layout: post
 date:   2017-10-11 09:00:00
 title: "Extracting cpu profile and memory dump from a live Express.js app"
 tags: [ express.js, NodeJs, cpu, performance]
-image: "/images/2017/10/memoryleak-sol2.png"
+image: "/images/2017/12/is-api-memory.png"
 published: true
 comments: true
 ---
-# Extracting cpu profile and memory dump from a live Express.js app
 
 Still in the same vibe of [How I solved a memory leak in a NodeJS worker](/2017/10/11/memoryleak-in-node-js-q-defer.html), I’m going to describe how I created an entrypoint on Express.js to extract cpu profile logs and heap dump using [v8-profiler](https://github.com/node-inspector/v8-profiler).
 
