@@ -57,7 +57,7 @@ if (process.env.ENABLE_PROFILE) {
 }
 ```
 
-I used that `ENABLE_PROFILE` environment variable because I dont want to let it available on production as default. Its a good idea to prevent unauthorized access too.
+I used that `ENABLE_PROFILE` environment variable because I dont want to let it available on production as default. It's a good idea to prevent unauthorized access too.
 
 After downloading the files, just load them on chrome dev tools. For memory leak debugging, take a look at my [previous post](/2017/10/11/memoryleak-in-node-js-q-defer.html).
 
