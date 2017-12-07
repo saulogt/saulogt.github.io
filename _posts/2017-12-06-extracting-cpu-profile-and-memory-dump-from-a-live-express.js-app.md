@@ -4,7 +4,7 @@ date:   2017-10-11 09:00:00
 title: "Extracting cpu profile and memory dump from a live Express.js app"
 tags: [ express.js, NodeJs, cpu, performance]
 image: "/images/2017/10/memoryleak-sol2.png"
-published: false
+published: true
 comments: true
 ---
 # Extracting cpu profile and memory dump from a live Express.js app
@@ -54,7 +54,6 @@ if (process.env.ENABLE_PROFILE) {
         profile.delete();
       });
     }, 30000)
-    return;
   })
 }
 ```
