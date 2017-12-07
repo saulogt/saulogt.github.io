@@ -54,7 +54,7 @@ if (process.env.ENABLE_PROFILE) {
         profile.delete();
       });
     }, 30000)
-
+    return;
   })
 }
 ```
