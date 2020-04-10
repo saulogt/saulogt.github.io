@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2020-04-09 09:00:00
-title: "Extracting Heroku app configuration to a `.env` file"
+title: "Extracting Heroku app configuration to .env file"
 tags: [ Heroku, NodeJs, tee, cli]
 image: "/images/2020/04/heroku-logo.png"
 published: true
