@@ -8,7 +8,7 @@ published: true
 comments: true
 ---
 
-This is useful to debug your app using the same environment variable of your running Heroku one.
+This is useful to debug your app using the same environment variable of your running Heroku app.<!-- more -->
 
 ## Requirements
 - Heroku cli installed
