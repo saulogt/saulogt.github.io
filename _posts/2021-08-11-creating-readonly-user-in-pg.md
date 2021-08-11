@@ -25,7 +25,7 @@ To avoid manual management of users and permissions I created this script that d
 1. Change the values `my_database`, `user1`, and `my_secret_password` to something that makes sense for you
 1. Save and run the script
 
-*Important* You cant execute it as a sql code because it variable declaration on the top is invalid SQL. You must use `psql` or another client that supports script execution
+*Important* You cant execute it as a sql code because the variable declaration on the top is an invalid SQL code. You must use `psql` or another client that supports script execution
 
 ```sh
 postgres=$ \i /Path/to/your/file.sql
