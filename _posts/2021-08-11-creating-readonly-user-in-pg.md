@@ -8,9 +8,9 @@ published: true
 comments: true
 ---
 
-I have an ETL process connecetd to my RDS Aurora cluster running postgres.
+I have an ETL process connected to my RDS Aurora cluster running Postgres.
 It automatically detect new tables and sync accordingly to the datawarehouse.
-The proble is that recently I noticed it's connecting using the master credential provided by RDS. Obviously it's not very secure approach so I needed to replace the credential with a readonly access.
+The problem is that recently I noticed it's connecting using the master credential provided by RDS. Obviously it's not very secure approach so I needed to replace the credential with a readonly access.
 
 To avoid manual management of users and permissions I created this script that does:
 1. Creates a role named `"readonly"`
