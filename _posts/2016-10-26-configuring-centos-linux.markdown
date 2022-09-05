@@ -1,34 +1,34 @@
 ---
 layout: post
-title:  Configuring Centos from scratch
-date:   2016-10-25 10:00:00
+title: Configuring Centos from scratch
+date: 2016-10-25 10:00:00
 categories: []
-tags: [ linux, centos, devops ]
+tags: [linux, centos, devops]
 image: "/images/2016/centos.jpg"
 ---
 
 ![centos](/images/2016/centos.jpg)
 
-This article describes the basic steps to setup a just installed Centos Linux. As my focus is on software development and I am not constantly practicing server configuration, these steps are my reference where I can't return to when I eventually forget it.
+This article describes the basic steps to set up a just-installed Centos Linux. As my focus is on software development and I am not constantly practicing server configuration, these steps are my reference where I can return to when I eventually forget it.
 
 ## Network setup
 
-If your network was not configured on the installation, you'll need to do it manually. You can configure it as DHCP or fixed IP. On both cases, you'll have to change the files in
+If your network was not configured on the installation, you'll need to do it manually. You can configure it as DHCP or fixed IP. In both cases, you'll have to change the files in
 `/etc/sysconfig/network-scripts`
 
-To test if your network is working (with the cable connected), ping to a well known dns server. Make sure that your network policy allows that.
+To test if your network is working (with the cable connected), `ping` a well-known DNS server. Make sure that your network policy allows that.
 
 `ping 8.8.8.8`
-This ip should be unreachable.
+This IP should be unreachable.
 
 Go to the directory and list the files
 
 ```
   cd /etc/sysconfig/network-scripts
-  ls  
+  ls
 ```
 
-You will find there a file called `ifcfg-eno1` that you have to edit. If you are using a virtual machine, this name can change. In my case is was `ifcfg-enp0s3`. Edit this file with `vi ifcfg-eno1`.
+You will find there a file called `ifcfg-eno1` that you have to edit. If you are using a virtual machine, this name can change. In my case it was `ifcfg-enp0s3`. Edit this file with `vi ifcfg-eno1`.
 
 ### DHCP
 
@@ -52,7 +52,6 @@ PING 8.8.8.8 (8.8.8.8): 56 data bytes
 ```
 
 Type `^+C` to stop pinging.
-
 
 ### Fixed IP
 
@@ -79,10 +78,11 @@ DNS2=8.8.4.4
 
 Use the same procedure to restart the network and test the reachability as on the DNS example.
 
-To see the current configuration, type `ip address` or `ip a` as a shorten form.
+To see the current configuration, type `ip address` or `ip a` as a shortened form.
 
 ### Hostname
-By default, the hostname is `localhost.localdomain` after installation. You can change it for whatever make sense for you. I'll change it to ship1.
+
+By default, the hostname is `localhost.localdomain` after installation. You can change it to whatever makes sense for you. I'll change it to ship1.
 
 And it is located in the file `/etc/hostname`
 

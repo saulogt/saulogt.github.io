@@ -1,5 +1,9 @@
 {
-    "cSpell.words": [
-        "Heroku"
-    ]
+  "cSpell.words": ["Heroku"],
+  "grammarly.selectors": [
+    {
+      "language": "markdown",
+      "scheme": "file"
+    }
+  ]
 }
