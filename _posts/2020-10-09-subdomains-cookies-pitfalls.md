@@ -10,8 +10,6 @@ comments: true
 
 This post is to describe the problem I had to configure a project to share cookies with all subdomains. It was supposed to be a simple task, but I spent many hours to figure out what I was doing wrong.
 
-The project was the authentication for [coldletter.com](https://coldletter.com)
-
 
 ## My setup
 I have a SPA running on `app.coldletter.com` that calls `/login` at `api.coldletter.com` using `axios`.
