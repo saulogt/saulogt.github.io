@@ -2,7 +2,7 @@
 layout: post
 date: 2025-04-18 12:50:00
 title: "How I Migrated from Firebase Auth to Better Auth Without Downtime or Bulk User Imports"
-tags: [Better-Auth, Firebase Auth, Postgres, Next.JS]
+tags: [Better Auth, Firebase Auth, Postgres, Next.JS]
 published: true
 comments: true
 ---
