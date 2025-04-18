@@ -8,8 +8,6 @@ published: true
 comments: true
 ---
 
-# How I Migrated from Firebase Auth to Better Auth Without Downtime or Bulk User Imports
-
 I recently migrated my SaaS app from Firebase Auth (Google login + email/password) to [Better Auth](https://www.better-auth.com/). I didn’t export thousands of users, didn’t force password resets, and had **zero downtime**. Instead, I let users migrate naturally by logging in.
 
 Here’s how I did it, why I did it, and what I learned along the way.
