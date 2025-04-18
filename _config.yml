@@ -1,17 +1,17 @@
 # Site settings
 title: Saulo's Blog
-tagline: Code, Experience &amp; Joy
+tagline: Tech, Projects &amp; Life
 email: saulogt at gmail dot com
-description:  > # this means to ignore newlines until "baseurl:"
- I hope this site is so useful to you as it is to me. I write down tech
- references and important procedures to save brain in order to become more
- creative and productive. Here I'll put development environment
- configurations, project experiences, code snippets in C++, Objective-C,
- java, javascript and more.
+description: > # this means to ignore newlines until "baseurl:"
+  I hope this site is so useful to you as it is to me. I write down tech
+  references and important procedures to save brain in order to become more
+  creative and productive. Here I'll put development environment
+  configurations, project experiences, code snippets in C++, Objective-C,
+  java, javascript and more.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://saulotauil.com" # the base hostname & protocol for your site
 twitter_username: saulogt
-github_username:  saulogt
+github_username: saulogt
 
 # Build settings
 markdown: kramdown
