@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2025-04-18 12:50:00
+date: 2025-04-17 12:50:00
 title: "How I Migrated from Firebase Auth to Better Auth Without Downtime or Bulk User Imports"
 tags: [Better Auth, Firebase Auth, Postgres, Next.JS]
 published: true
@@ -238,7 +238,7 @@ export const signInWithEmail = async (
 };
 ```
 
-## No need to reset passwords, no need to export Firebase password hashes.
+No need to reset passwords, no need to export Firebase password hashes.
 
 ## Benefits of This Strategy
 
@@ -248,7 +248,7 @@ export const signInWithEmail = async (
 - Seamless experience for active users
 - Firebase fully removed once migration is done and critical mass of users migrated
 
-## After some time, say 180 days, I can safely turn off Firebase. If a user hasn’t logged in by then, I can prompt them to reset their password using the new system.
+After some time, say 180 days, I can safely turn off Firebase. If a user hasn’t logged in by then, I can prompt them to reset their password using the new system.
 
 ## Gotchas and Lessons
 
