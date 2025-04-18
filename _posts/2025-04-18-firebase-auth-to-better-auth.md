@@ -3,7 +3,6 @@ layout: post
 date: 2025-04-18 12:50:00
 title: "How I Migrated from Firebase Auth to Better Auth Without Downtime or Bulk User Imports"
 tags: [Better-Auth, Firebase Auth, Postgres, Next.JS]
-# image: "/images/2020/10/cookies.jpg"
 published: true
 comments: true
 ---
@@ -11,8 +10,6 @@ comments: true
 I recently migrated my SaaS app from Firebase Auth (Google login + email/password) to [Better Auth](https://www.better-auth.com/). I didn’t export thousands of users, didn’t force password resets, and had **zero downtime**. Instead, I let users migrate naturally by logging in.
 
 Here’s how I did it, why I did it, and what I learned along the way.
-
----
 
 ## Why I Left Firebase Auth
 
@@ -27,8 +24,6 @@ Firebase Auth worked at the beginning. But as the app matured, it became a burde
 - **Limited flexibility:** Adding multi-tenancy, managing roles, customizing login flows — all that required layers on top of Firebase.
 
 In short, Firebase was a powerful system I no longer needed.
-
----
 
 ## What I Switched To
 
@@ -48,8 +43,6 @@ I’m using:
 - **Drizzle ORM**
 - **PostgreSQL (RDS)**
 - **Vercel**
-
----
 
 ## Schema Challenges
 
@@ -100,8 +93,6 @@ export { verification };
 So that other tables could set relationships with the new auth tables created by Better Auth, and to be exported as <tableName>T to avoid name conflicts.
 
 One limitation I hit: Better Auth doesn’t support Postgres schemas (namespaces). I had to keep all auth tables in the default schema. Not a big deal, but worth knowing.
-
----
 
 ## How I Migrated Without Importing Users
 
@@ -265,8 +256,6 @@ export const signInWithEmail = async (
 - Don’t forget emailVerified: Better Auth uses this to decide if it should trust an OAuth login. I defaulted it to true for Google users.
 - Test fallback login flow: I caught a few bugs in staging — like retrying the login after inserting the new password.
 - Avoid mixing auth states: I briefly tried to decode both Firebase tokens and Better Auth sessions at once — it was messy. I focused only on one system at a time in runtime.
-
----
 
 ## Final Thoughts
 
