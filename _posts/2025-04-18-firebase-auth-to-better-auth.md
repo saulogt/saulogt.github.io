@@ -238,6 +238,28 @@ export const signInWithEmail = async (
 };
 ```
 
+firebaseSignIn function:
+
+```ts
+const firebaseSignIn = async (email: string, password: string) => {
+  const url = `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${env.NEXT_PUBLIC_FIREBASE_API_KEY}`;
+  const res = await fetch(url, {
+    method: "POST",
+    headers: {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      email,
+      password,
+      returnSecureToken: true,
+    }),
+  });
+  // ... boring stuff here
+  return res.json();
+};
+```
+
 No need to reset passwords, no need to export Firebase password hashes.
 
 ## Benefits of This Strategy
