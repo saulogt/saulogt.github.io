@@ -296,4 +296,4 @@ Resources:
 - [Better Auth Docs](https://www.better-auth.com/docs)
 - [Drizzle ORM](https://drizzle-orm.com/)
 - [Firebase Auth REST API](https://firebase.google.com/docs/reference/rest/auth)
-- [Optigrid](https://www.optigrid.io/) - Where I made the migration
+- [Optogrid](https://www.optogrid.io/) - Where I made the migration
