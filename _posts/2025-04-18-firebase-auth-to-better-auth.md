@@ -127,23 +127,19 @@ Instead, I had to do that on the backend. Fortunately we are using Next.js App R
 Here’s what happened:
 
 1. Check for existing user in your database:
-
    - Query the user and account tables by email.
 
    - Use a left join to see if the user has an existing Better Auth account.
 
 2. If user exists in your DB but has no Better Auth account:
-
    - Try to authenticate with Firebase (legacy system) using the provided email and password.
 
 3. If Firebase login is successful:
-
    - Get the Better Auth context to access the password hasher.
 
    - Hash the provided password using Better Auth’s hashing method.
 
    - Insert a new account record into Better Auth’s account table:
-
      - Use "credential" as providerId
 
      - Link it to the existing user.id
@@ -151,11 +147,9 @@ Here’s what happened:
      - Set a new accountId, password, and timestamps
 
 4. After migrating (or if already migrated), try to sign in via Better Auth:
-
    - Call auth.api.signInEmail(...) with email and password.
 
 5. If the Better Auth sign-in fails:
-
    - Check if the error is an instance of APIError.
 
    - Try to extract a known error message (e.g., invalid credentials).
@@ -165,7 +159,6 @@ Here’s what happened:
    - If it’s an unknown/unhandled error, rethrow it.
 
 6. If sign-in succeeds:
-
    - Optionally redirect the user to a specified route (redirectTo).
 
    - Return the sign-in result.
@@ -176,7 +169,7 @@ On the next login, Better Auth handles everything natively.
 export const signInWithEmail = async (
   email: string,
   password: string,
-  redirectTo?: string
+  redirectTo?: string,
 ) => {
   const users = await db2
     .select()
@@ -216,7 +209,7 @@ export const signInWithEmail = async (
         email,
         password,
       },
-    })
+    }),
   );
 
   if (!result.isSuccess) {
@@ -296,4 +289,4 @@ Resources:
 - [Better Auth Docs](https://www.better-auth.com/docs)
 - [Drizzle ORM](https://drizzle-orm.com/)
 - [Firebase Auth REST API](https://firebase.google.com/docs/reference/rest/auth)
-- [Optogrid](https://www.optogrid.io/) - Where I made the migration
+- [Optogrid](https://www.optogrid.com/) - Where I made the migration
