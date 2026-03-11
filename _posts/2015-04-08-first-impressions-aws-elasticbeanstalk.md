@@ -3,19 +3,20 @@ layout: post
 title: First impressions about the AWS Elastic Beanstalk
 date: "2015-04-08 22:16"
 categories: []
-tags: [aws ,elastic beanstalk ,nodejs]
+tags: [aws, elastic beanstalk, nodejs]
 published: true
 ---
 
-This is my first experience configuring an web application environment on AWS from acquisition to deployment. As I'll probably make many mistakes, I decided to write this post as a ship's log, in order to register my impressions, problems and doubts during the process.  
+This is my first experience configuring a web application environment on AWS from acquisition to deployment. As I'll probably make many mistakes, I decided to write this post as a ship's log, in order to register my impressions, problems and doubts during the process.
 
 ## Just registered to AWS, what now?
 
 Well... Now I have a Free tier for one year and that gives me:
+
 - 750 hours per month of a micro EC2 instance running Linux
 - 750 hours per month of a micro EC2 instance running Windows
 - 5 GB of S3 storage
-- A bunch of other things that I didn't assume that was important. (baybe I'm wrong)
+- A bunch of other things that I didn't assume that was important. (maybe I'm wrong)
 
 ![AWS Options](/images/2015/04/aws_options.png)
 

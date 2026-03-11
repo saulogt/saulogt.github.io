@@ -1,18 +1,19 @@
 ---
 layout: post
-date:   2021-08-11 12:50:00
+date: 2021-08-11 12:50:00
 title: "Creating readonly access user in postgress in a single script"
-tags: [ Postgres, psql, database, rds]
+tags: [Postgres, psql, database, rds]
 # image: "/images/2020/10/cookies.jpg"
 published: true
 comments: true
 ---
 
 I have an ETL process connected to my RDS Aurora cluster running Postgres.
-It automatically detect new tables and sync accordingly to the datawarehouse.
-The problem is that recently I noticed it's connecting using the master credential provided by RDS. Obviously it's not very secure approach so I needed to replace the credential with a readonly access.
+s new tables and sync accordingly to the datawarehouse.
+The problem is that recently I noticed it's connecting using the master credential provided by RDS. Obviously it's not a very secure approach so I needed to replace the credential with a readonly access.
 
 To avoid manual management of users and permissions I created this script that does:
+
 1. Creates a role named `"readonly"`
 1. Grants access to my database
 1. Grants access to all schemas
@@ -21,11 +22,11 @@ To avoid manual management of users and permissions I created this script that d
 
 ## Usage
 
-1. Save the content of the script bellow to a file
+1. Save the content of the script below to a file
 1. Change the values `my_database`, `user1`, and `my_secret_password` to something that makes sense for you
 1. Save and run the script
 
-*Important* You cant execute it as a sql code because the variable declaration on the top is an invalid SQL code. You must use `psql` or another client that supports script execution
+_Important_ You can't execute it as a sql code because the variable declaration on the top is an invalid SQL code. You must use `psql` or another client that supports script execution
 
 ```sh
 postgres=$ \i /Path/to/your/file.sql
@@ -46,9 +47,9 @@ DO $do$
 DECLARE
     sch text;
 BEGIN
-    
+
     -- Lists all schemas filtering out system ones
-    FOR sch IN SELECT nspname FROM pg_namespace where nspname != 'pg_toast' 
+    FOR sch IN SELECT nspname FROM pg_namespace where nspname != 'pg_toast'
     and nspname != 'pg_temp_1' and nspname != 'pg_toast_temp_1'
     and nspname != 'pg_statistic' and nspname != 'pg_catalog'
     and nspname != 'information_schema'
@@ -56,7 +57,7 @@ BEGIN
         EXECUTE format($$ GRANT USAGE ON SCHEMA %I TO readonly $$, sch);
         EXECUTE format($$ GRANT SELECT ON ALL TABLES IN SCHEMA %I TO readonly $$, sch);
         EXECUTE format($$ GRANT SELECT ON ALL SEQUENCES IN SCHEMA %I TO readonly $$, sch);
-        
+
         EXECUTE format($$ ALTER DEFAULT PRIVILEGES IN SCHEMA %I GRANT SELECT ON TABLES TO readonly $$, sch);
         EXECUTE format($$ ALTER DEFAULT PRIVILEGES IN SCHEMA %I GRANT SELECT ON SEQUENCES TO readonly $$, sch);
     END LOOP;
