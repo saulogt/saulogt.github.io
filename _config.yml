@@ -13,5 +13,9 @@ url: "https://saulotauil.com" # the base hostname & protocol for your site
 twitter_username: saulogt
 github_username: saulogt
 
+author:
+  name: "Saulo Tauil"
+  url: "https://saulotauil.com/about/"
+
 # Build settings
 markdown: kramdown
