@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-02-07 12:50:00
-title: "My new side project - Optogrid"
+title: "Building a SaaS - Optogrid"
 tags: [Postgres, Next.JS]
 # image: "/images/2020/10/cookies.jpg"
 published: true
