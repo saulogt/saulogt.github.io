@@ -6,6 +6,8 @@ tags: [Postgres, Next.JS]
 # image: "/images/2020/10/cookies.jpg"
 published: true
 comments: true
+redirect_from:
+  - /new-side-project-optogrid/
 ---
 
 Since I was a kid, my mom has been working in the Optical industry, and when I was about 10 years old she opened her own small business. I've always heard her complaining about the market, the difficulties of being the owner and so on. I promised myself that I would do something else for a living and I fell in love with computer programming very early in my life. However, I learned a lot by osmosis 😂. And recently I decided to help my parents and my brother (Yes, my brother went on the same track) by building a tool to allow them to sell prescription eyeglasses remotely. And maybe serve someone else with the same use case
