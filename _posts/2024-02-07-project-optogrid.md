@@ -28,4 +28,4 @@ Here is the stack:
 - Sentry (I used to use Rollbar, but decided to try something else)
 
 The app is currently free, but I plan to add a paywall soon.
-Link directly to the app [app.optogrid.io](https://app.optogrid.io?utm_source=saulo_blog&utm_medium=link&utm_campaign=side_project_app)
+Link directly to the app [app.optogrid.com](https://app.optogrid.com?utm_source=saulo_blog&utm_medium=link&utm_campaign=side_project_app)
